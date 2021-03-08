@@ -87,7 +87,7 @@
                         </div>
                                      
                         <label class="label control-label">Confirm Password</label>
-                        <input type="password" class="form-control" name="passwordConf" placeholder="confirm password" required>
+                        <input type="password" class="form-control" name="password_confirmation" placeholder="confirm password" required>
                         
                         <div class="col text-center" style="margin-top: 15px;">
                             <a href="{{ route('login') }}">saya sudah memiliki akun &#10003;</a>
