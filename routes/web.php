@@ -24,6 +24,11 @@ Route::get('/admin', function () {
     return view('admin');
 }) -> name('admin');
 
+Route::get('/forgotPassword', function () {
+    return view('auth/passwords/reset');
+}) -> name('forgotPassword');
+
+
 
 
 Route::get('/', 'PagesController@index');
